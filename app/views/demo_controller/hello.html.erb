@@ -1,0 +1,22 @@
+<h1>DemoController#Hello</h1>
+<p>This is Hello from views!</p>
+
+
+<% target = " heyheyhey " %>
+
+<%= "#{target} youyouyou " %>
+
+
+<% 3.times do %>
+  <%= "XXX" %>
+<% end %>
+
+<% @array.each do |n| %>
+<%= n %>
+<%end%>
+
+<a href="/demo_controller/google">go to google</a>
+<%= link_to('go to google', {:controller => 'demo_controller', :action => 'google'})%>
+
+<%= link_to('go to index_view1', {:controller => 'demo_controller', :action => 'index_view1',
+                             :id => 3, :page =>5})%>
