@@ -13,6 +13,4 @@ class Page < ActiveRecord::Base
   scope :sorted, lambda { order ("pages.created_at DESC")}
 
 
-
-
 end

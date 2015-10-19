@@ -24,5 +24,8 @@ class DemoControllerController < ApplicationController
   def google
     redirect_to("http://www.google.ca")
   end
+
+  def escape_output
+  end
   
 end
