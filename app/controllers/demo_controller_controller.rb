@@ -1,6 +1,6 @@
 class DemoControllerController < ApplicationController
 
-  layout false
+  layout 'application'
 
   # The following codes are named action
   def index_view1

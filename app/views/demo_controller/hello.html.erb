@@ -20,3 +20,7 @@
 
 <%= link_to('go to index_view1', {:controller => 'demo_controller', :action => 'index_view1',
                              :id => 3, :page =>5})%>
+
+<br/>
+<%= link_to('Roar', '#', :onclick => "jsRoar('JavaScript'); return true;")%>
+<%= javascript_tag("jsRoar('Rails');")%>
