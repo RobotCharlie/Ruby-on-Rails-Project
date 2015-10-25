@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
 
 
+
+
+
   #get 'demo_controller/index_view1'
   #root "demo_controller#index_view1" #very beginning syntax
   
@@ -10,6 +13,8 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'demo_controller#welcome' #http://0.0.0.0:3000/
+
+  get 'admin', :to =>  "access#index" # the one who has already logged in dont need to see login page
 
   match ':controller(/:action(/:id))', :via => [:get,:post] #very last syntax
   # Example of regular route:
