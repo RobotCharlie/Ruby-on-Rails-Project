@@ -37,8 +37,8 @@ a.action:hover {
 
 /* small action buttons */
 .action {
-    width: 200px;}
-.action a.action {
+    width: 100px; }
+.action {
     float: left;
     min-width: 3.5em;
     padding: 1px 2px;
